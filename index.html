@@ -12,5 +12,23 @@
 <body>
   <app-root></app-root>
   <noscript>Please enable JavaScript to continue using this application.</noscript>
-<script src="runtime-es2015.edb2fcf2778e7bf1d426.js" type="module"></script><script src="runtime-es5.edb2fcf2778e7bf1d426.js" nomodule defer></script><script src="polyfills-es5.ef4b1e1fc703b3ff76e3.js" nomodule defer></script><script src="polyfills-es2015.2987770fde9daa1d8a2e.js" type="module"></script><script src="main-es2015.49951c996b1df706bb7a.js" type="module"></script><script src="main-es5.49951c996b1df706bb7a.js" nomodule defer></script></body>
+<script src="runtime-es2015.edb2fcf2778e7bf1d426.js" type="module"></script><script src="runtime-es5.edb2fcf2778e7bf1d426.js" nomodule defer></script><script src="polyfills-es5.ef4b1e1fc703b3ff76e3.js" nomodule defer></script><script src="polyfills-es2015.2987770fde9daa1d8a2e.js" type="module"></script><script src="main-es2015.9972d8d8caba575e2eec.js" type="module"></script><script src="main-es5.9972d8d8caba575e2eec.js" nomodule defer></script></body>
+
+
+<script>
+  AFRAME.registerComponent('soundhandler', {
+   tick: function () {
+          var entity = document.querySelector('[sound]');
+          var btn = document.getElementById("myBtn");
+        if (document.querySelector('a-marker').object3D.visible == true) {
+           entity.components.sound.playSound();
+           btn.setAttribute('animation-mixer', {timeScale: 1});
+       } else {
+           entity.components.sound.pauseSound();
+           btn.setAttribute('animation-mixer', {timeScale: 0});
+       }
+  
+    }
+  });
+  </script>
 </html>
