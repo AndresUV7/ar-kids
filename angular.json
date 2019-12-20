@@ -122,8 +122,13 @@
               "devServerTarget": "ar-kids:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "ar-kids"
 }
