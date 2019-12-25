@@ -8,11 +8,13 @@ import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { PruebaComponent } from './prueba/prueba.component';
+import { JuegoComponent } from './juego/juego.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PruebaComponent
+    PruebaComponent,
+    JuegoComponent
   ],
   imports: [
     BrowserModule,

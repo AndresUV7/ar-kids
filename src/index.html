@@ -3,12 +3,13 @@
 <head>
   <meta charset="utf-8">
   <title>ArKids</title>
-  <base href="/ar-kids/">
+  <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
   <script src="https://raw.githack.com/jeromeetienne/AR.js/2.0.5/aframe/build/aframe-ar.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.0.1/dist/aframe-extras.min.js"></script>
+  <script src="assets/phaser.js"></script>
   <link rel="manifest" href="manifest.webmanifest">
   <meta name="theme-color" content="#1976d2">
 </head>
@@ -34,4 +35,10 @@
     }
   });
   </script>
+
+<script>
+  if (global === undefined) {
+    var global = window;
+  }
+</script>
 </html>
