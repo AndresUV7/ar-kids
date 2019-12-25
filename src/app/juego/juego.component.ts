@@ -36,6 +36,7 @@ class NewScene extends Phaser.Scene {
   update(time, delta){
     console.log(delta);
   }
+
 }
 
 @Component({
@@ -63,10 +64,13 @@ export class JuegoComponent implements OnInit {
         height: 768,
       }
     };
+ 
   }
 
   ngOnInit() {
     this.phaserGame = new Phaser.Game(this.config);
+
+    
   }
 
 }
