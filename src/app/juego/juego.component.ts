@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import Phaser from 'phaser';
-
+let WIDTH = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+let HEIGHT = (window.innerHeight > 0) ? window.innerHeight : screen.height;
 class NewScene extends Phaser.Scene {
 
   
@@ -57,11 +58,11 @@ export class JuegoComponent implements OnInit {
         default: 'arcade',
       },
       scale: {
-        mode: Phaser.Scale.RESIZE,
+        mode: Phaser.Scale.FIT,
         autoCenter: Phaser.Scale.CENTER_BOTH,
         parent: 'gameContainer',
-        width: 1024,
-        height: 768,
+        width: WIDTH,
+        height: HEIGHT,
       }
     };
  
