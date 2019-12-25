@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1577048448412,
+  "timestamp": 1577308269638,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -10,8 +10,8 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main-es2015.83e9fd63190fffc58d84.js",
-        "/main-es5.83e9fd63190fffc58d84.js",
+        "/main-es2015.0b44f1d588b34459ff00.js",
+        "/main-es5.0b44f1d588b34459ff00.js",
         "/manifest.webmanifest",
         "/polyfills-es2015.2987770fde9daa1d8a2e.js",
         "/polyfills-es5.ef4b1e1fc703b3ff76e3.js",
@@ -34,6 +34,8 @@
         "/assets/icons/icon-512x512.png",
         "/assets/icons/icon-72x72.png",
         "/assets/icons/icon-96x96.png",
+        "/assets/img/bird.png",
+        "/assets/img/bird_dos.png",
         "/assets/minecraft/2 - Historias X Cambiar.mp3",
         "/assets/minecraft/scene.bin",
         "/assets/minecraft/scene.gltf",
@@ -42,7 +44,8 @@
         "/assets/minecraft/textures/material_baseColor.png",
         "/assets/minecraft/textures/metal_baseColor.png",
         "/assets/minecraft/textures/pants_baseColor.png",
-        "/assets/minecraft/textures/shoes_baseColor.png"
+        "/assets/minecraft/textures/shoes_baseColor.png",
+        "/assets/phaser.js"
       ],
       "patterns": []
     }
@@ -57,6 +60,8 @@
     "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
     "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/assets/img/bird.png": "de9f3110807539c1205bcf7d38b590f32f2868fe",
+    "/assets/img/bird_dos.png": "70379103c9431d65b569e6fbc32c5f096141166e",
     "/assets/minecraft/2 - Historias X Cambiar.mp3": "299c15d8b86cd14a259382188891224ac16edf54",
     "/assets/minecraft/scene.bin": "d240b78909cc1466f7160aadab131a62b86c7007",
     "/assets/minecraft/scene.gltf": "51714b3072de72da3aadbc9b66f49261de27b2ec",
@@ -66,10 +71,11 @@
     "/assets/minecraft/textures/metal_baseColor.png": "0db073bc43cb4eddd9713078b3f922d1bf148fe3",
     "/assets/minecraft/textures/pants_baseColor.png": "fbba47956650ec6ee5573ab3979bfe55cd4e71a9",
     "/assets/minecraft/textures/shoes_baseColor.png": "7d5619e27736bd493f408392843e93bf96d4ad09",
+    "/assets/phaser.js": "05c2f41f6722ba7e8ae927da8d56f01ffd437834",
     "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "25454ad1c84bdd112e994e9468b633c1f56a711e",
-    "/main-es2015.83e9fd63190fffc58d84.js": "3087ea54a9fb7108cc6fb00b9e9af9d8003fdbf8",
-    "/main-es5.83e9fd63190fffc58d84.js": "247d1ddc4991380d3259206814a6f1753d0cd9eb",
+    "/index.html": "921317ac9b4c8fb7a17bb85b2c938d24b7897aff",
+    "/main-es2015.0b44f1d588b34459ff00.js": "76eb1b3232789db686dcd5c45f08c348c06ad085",
+    "/main-es5.0b44f1d588b34459ff00.js": "129712d87cb329e8d7ef770b9a288f6aa70d4e0a",
     "/manifest.webmanifest": "6fa971c2e38a66fe153fb0c98bdf105c1bb6b006",
     "/polyfills-es2015.2987770fde9daa1d8a2e.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
     "/polyfills-es5.ef4b1e1fc703b3ff76e3.js": "6bff0c03e05bb347d213ad1b3674045eb892d189",
