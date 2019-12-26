@@ -18,6 +18,7 @@ class NewScene extends Phaser.Scene {
 
   create() {
     // console.log('enter create');
+    this.scale.lockOrientation('landscape');
     let pajaro=this.add.image(50,100,"pajaro").setInteractive();
 
     this.input.setDraggable(pajaro);
