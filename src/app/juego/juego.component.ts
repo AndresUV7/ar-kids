@@ -68,14 +68,7 @@ export class JuegoComponent implements OnInit {
         parent: 'gameContainer',
         width: 800,
         height: 600,
-        min: {
-          width: 800,
-          height: 600
-        },
-        max: {
-          width: 1600,
-          height: 1200
-        }
+        
       }
     };
  
