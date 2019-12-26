@@ -38,7 +38,6 @@ class NewScene extends Phaser.Scene {
     console.log(delta);
     WIDTH = (window.innerWidth > 0) ? window.innerWidth : screen.width;
     HEIGHT = (window.innerHeight > 0) ? window.innerHeight : screen.height;
-    this.scale.setGameSize(WIDTH,HEIGHT)
   }
 
 }
