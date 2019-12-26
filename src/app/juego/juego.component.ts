@@ -13,7 +13,7 @@ class NewScene extends Phaser.Scene {
 
   preload() {
     // console.log('enter preload');
-    this.load.image("pajaro","/assets/img/bird.png");
+    this.load.image("pajaro","/ar-kids/assets/img/bird.png");
   }
 
   create() {
