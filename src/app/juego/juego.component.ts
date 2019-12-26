@@ -1,17 +1,20 @@
 import { Component, OnInit } from '@angular/core';
+import { HostListener } from "@angular/core"
 import Phaser from 'phaser';
-let WIDTH = (window.innerWidth > 0) ? window.innerWidth : screen.width;
-let HEIGHT = (window.innerHeight > 0) ? window.innerHeight : screen.height;
+
+
 class NewScene extends Phaser.Scene {
 
-  
+  aGrid:any;
+
   constructor() {
-    super({ key: 'new' });
+    super('NewScene');
+    
   }
 
   preload() {
     // console.log('enter preload');
-    this.load.image("pajaro","/ar-kids/assets/img/bird.png");
+    this.load.image("pajaro","/assets/img/bird.png");
   }
 
   create() {
@@ -36,8 +39,7 @@ class NewScene extends Phaser.Scene {
 
   update(time, delta){
     console.log(delta);
-    WIDTH = (window.innerWidth > 0) ? window.innerWidth : screen.width;
-    HEIGHT = (window.innerHeight > 0) ? window.innerHeight : screen.height;
+    
   }
 
 }
@@ -52,7 +54,9 @@ export class JuegoComponent implements OnInit {
   phaserGame: Phaser.Game;
   config: Phaser.Types.Core.GameConfig;
 
+
   constructor() {
+
     this.config = {
       type: Phaser.AUTO,
       scene: [ NewScene ],
@@ -63,17 +67,38 @@ export class JuegoComponent implements OnInit {
         mode: Phaser.Scale.FIT,
         autoCenter: Phaser.Scale.CENTER_BOTH,
         parent: 'gameContainer',
-        width: WIDTH,
-        height: HEIGHT,
+        width: 800,
+        height: 600,
       }
     };
  
   }
+  
 
   ngOnInit() {
+
+    
     this.phaserGame = new Phaser.Game(this.config);
 
     
+
+  
+    
   }
+
+  // @HostListener('window:resize', ['$event'])
+  // onResize(event?) {
+  //  this.screenHeight = window.innerHeight;
+  //  this.screenWidth = window.innerWidth;
+  // }
+
+  // @HostListener('window:resize', ['$event'])
+  //   getScreenSize(event?) {
+  //     this.screenHeight = window.innerHeight;
+  //     this.screenWidth = window.innerWidth;
+  //     this.config.scale.height=this.screenHeight;
+  //     this.config.scale.width=this.screenWidth
+  //     console.log("===========>",this.config.scale.height, this.config.scale.width);
+  //   }
 
 }
