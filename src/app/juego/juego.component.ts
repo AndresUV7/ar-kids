@@ -66,8 +66,8 @@ export class JuegoComponent implements OnInit {
         mode: Phaser.Scale.FIT,
         autoCenter: Phaser.Scale.CENTER_BOTH,
         parent: 'gameContainer',
-        width: 800,
-        height: 600,
+        width: 1024,
+        height: 768,
         
       }
     };
