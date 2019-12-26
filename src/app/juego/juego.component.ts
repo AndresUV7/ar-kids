@@ -9,7 +9,8 @@ class NewScene extends Phaser.Scene {
   constructor() {
       
     super('NewScene');
-    this.scale.lockOrientation('portrait-primary');
+    // this.scale.lockOrientation('portrait-primary');
+    
   }
 
   preload() {
@@ -41,6 +42,15 @@ class NewScene extends Phaser.Scene {
 
   update(time, delta){
     console.log(delta);
+    this.scale.on('orientationchange', function(orientation) {
+      if (orientation === Phaser.Scale.PORTRAIT) {
+          // ...
+          console.log("oa")
+      } else if (orientation === Phaser.Scale.LANDSCAPE) {
+          // ...
+          console.log("oa2")
+      }
+  });
     
   }
 
