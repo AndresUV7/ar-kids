@@ -8,13 +8,13 @@ class NewScene extends Phaser.Scene {
 
   constructor() {
     super('NewScene');
+    this.scale.lockOrientation('landscape');
     
   }
 
   preload() {
     // console.log('enter preload');
     this.load.image("pajaro","/ar-kids/assets/img/bird.png");
-    this.scale.lockOrientation('landscape');
     
   }
 
