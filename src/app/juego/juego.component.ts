@@ -5,7 +5,6 @@ import Phaser from 'phaser';
 
 class NewScene extends Phaser.Scene {
 
-  aGrid:any;
 
   constructor() {
     super('NewScene');
@@ -15,6 +14,8 @@ class NewScene extends Phaser.Scene {
   preload() {
     // console.log('enter preload');
     this.load.image("pajaro","/ar-kids/assets/img/bird.png");
+    this.scale.lockOrientation('landscape');
+    
   }
 
   create() {
@@ -77,7 +78,7 @@ export class JuegoComponent implements OnInit {
 
   ngOnInit() {
 
-    
+ 
     this.phaserGame = new Phaser.Game(this.config);
 
     
@@ -101,4 +102,8 @@ export class JuegoComponent implements OnInit {
   //     console.log("===========>",this.config.scale.height, this.config.scale.width);
   //   }
 
+  
+
 }
+
+
