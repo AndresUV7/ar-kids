@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1577335591109,
+  "timestamp": 1577335977502,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -10,8 +10,8 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main-es2015.ee81524a20c967d45a70.js",
-        "/main-es5.ee81524a20c967d45a70.js",
+        "/main-es2015.a5162f05369399241532.js",
+        "/main-es5.a5162f05369399241532.js",
         "/manifest.webmanifest",
         "/polyfills-es2015.2987770fde9daa1d8a2e.js",
         "/polyfills-es5.ef4b1e1fc703b3ff76e3.js",
@@ -73,9 +73,9 @@
     "/assets/minecraft/textures/shoes_baseColor.png": "7d5619e27736bd493f408392843e93bf96d4ad09",
     "/assets/phaser.js": "05c2f41f6722ba7e8ae927da8d56f01ffd437834",
     "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "dfde56ae15054dc278ba59ac0068e98573abba47",
-    "/main-es2015.ee81524a20c967d45a70.js": "7b00f23dea8b2f500e01f2d817203c175b5a5d33",
-    "/main-es5.ee81524a20c967d45a70.js": "3d05d3d141a9dfaf9011606a1f23e33318eed042",
+    "/index.html": "cb2c679e393f1072441a82d399a9cc26f16c4d38",
+    "/main-es2015.a5162f05369399241532.js": "880fcd13b763fd3be09b1102992f4dd59ba2cfef",
+    "/main-es5.a5162f05369399241532.js": "19ea8377070ece6516fa054d244d996b6b2f6adc",
     "/manifest.webmanifest": "6fa971c2e38a66fe153fb0c98bdf105c1bb6b006",
     "/polyfills-es2015.2987770fde9daa1d8a2e.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
     "/polyfills-es5.ef4b1e1fc703b3ff76e3.js": "6bff0c03e05bb347d213ad1b3674045eb892d189",
