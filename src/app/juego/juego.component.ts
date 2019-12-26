@@ -9,7 +9,7 @@ class NewScene extends Phaser.Scene {
   constructor() {
       
     super('NewScene');
-    this.scale.lockOrientation('portrait');
+    this.scale.lockOrientation('portrait-primary');
   }
 
   preload() {
