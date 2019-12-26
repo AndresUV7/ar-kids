@@ -3,10 +3,9 @@
   "short_name": "ar-kids",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
-  "display": "fullscreen",
+  "display": "standalone",
   "scope": "/",
   "start_url": "/ar-kids/",
-  "orientation": "landscape",
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",
