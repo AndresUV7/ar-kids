@@ -41,7 +41,7 @@ class NewScene extends Phaser.Scene {
     }
 
   update(time, delta){
-    console.log(delta);
+    // console.log(delta);
 
     
   }
@@ -72,10 +72,9 @@ export class JuegoComponent implements OnInit {
         autoCenter: Phaser.Scale.CENTER_BOTH,
         parent: 'gameContainer',
         width: 640,
-        height: 360,
-      
-        
+        height: 360,  
       }
+      
     };
  
   }
