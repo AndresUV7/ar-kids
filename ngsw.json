@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1577385746659,
+  "timestamp": 1577386185843,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -73,7 +73,7 @@
     "/assets/minecraft/textures/shoes_baseColor.png": "7d5619e27736bd493f408392843e93bf96d4ad09",
     "/assets/phaser.js": "05c2f41f6722ba7e8ae927da8d56f01ffd437834",
     "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "fc3f77c2a7ff9b837da7907d83ad5ac588fc51b0",
+    "/index.html": "a2aaa20cef6aef824f939266310ae92ea2dc6781",
     "/main-es2015.15ec25c5f14c735f2ee8.js": "97982c9e7c04a8f7eeb8464fe9cfccff5cd2744e",
     "/main-es5.15ec25c5f14c735f2ee8.js": "ff9d2ef338e0f89e0fca1e9684e77f0d41f3a027",
     "/manifest.webmanifest": "665d913463e45bc36355ef34b83868476ff93895",
