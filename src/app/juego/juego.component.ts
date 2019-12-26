@@ -91,6 +91,8 @@ export class JuegoComponent implements OnInit {
     
   }
 
+
+
   // @HostListener('window:resize', ['$event'])
   // onResize(event?) {
   //  this.screenHeight = window.innerHeight;
