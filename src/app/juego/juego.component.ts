@@ -9,14 +9,14 @@ class NewScene extends Phaser.Scene {
   constructor() {
       
     super('NewScene');
-    // this.scale.lockOrientation('portrait-primary');
+    
     
   }
 
   preload() {
     // console.log('enter preload');
     this.load.image("pajaro","/ar-kids/assets/img/bird.png");
-    
+    this.scale.startFullscreen();
   }
 
   create() {
@@ -42,15 +42,7 @@ class NewScene extends Phaser.Scene {
 
   update(time, delta){
     console.log(delta);
-    this.scale.on('orientationchange', function(orientation) {
-      if (orientation === Phaser.Scale.PORTRAIT) {
-          // ...
-          console.log("oa")
-      } else if (orientation === Phaser.Scale.LANDSCAPE) {
-          // ...
-          console.log("oa2")
-      }
-  });
+
     
   }
 
@@ -81,6 +73,7 @@ export class JuegoComponent implements OnInit {
         parent: 'gameContainer',
         width: 640,
         height: 360,
+      
         
       }
     };
