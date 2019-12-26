@@ -1,21 +1,19 @@
 import { Component, OnInit } from '@angular/core';
-import { HostListener } from "@angular/core"
 import Phaser from 'phaser';
 
 
 class NewScene extends Phaser.Scene {
 
+  aGrid:any;
 
   constructor() {
     super('NewScene');
-    this.scale.lockOrientation('landscape');
     
   }
 
   preload() {
     // console.log('enter preload');
-    this.load.image("pajaro","/ar-kids/assets/img/bird.png");
-    
+    this.load.image("pajaro","/assets/img/bird.png");
   }
 
   create() {
@@ -70,6 +68,14 @@ export class JuegoComponent implements OnInit {
         parent: 'gameContainer',
         width: 800,
         height: 600,
+        min: {
+          width: 800,
+          height: 600
+        },
+        max: {
+          width: 1600,
+          height: 1200
+        }
       }
     };
  
@@ -78,7 +84,7 @@ export class JuegoComponent implements OnInit {
 
   ngOnInit() {
 
- 
+    
     this.phaserGame = new Phaser.Game(this.config);
 
     
@@ -102,8 +108,4 @@ export class JuegoComponent implements OnInit {
   //     console.log("===========>",this.config.scale.height, this.config.scale.width);
   //   }
 
-  
-
 }
-
-
