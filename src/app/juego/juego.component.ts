@@ -4,21 +4,23 @@ import Phaser from 'phaser';
 
 class NewScene extends Phaser.Scene {
 
-  aGrid:any;
-
+  
+  
   constructor() {
+      
     super('NewScene');
-    
+    this.scale.lockOrientation('portrait');
   }
 
   preload() {
     // console.log('enter preload');
     this.load.image("pajaro","/ar-kids/assets/img/bird.png");
+    
   }
 
   create() {
     // console.log('enter create');
-    this.scale.lockOrientation('landscape');
+    
     let pajaro=this.add.image(50,100,"pajaro").setInteractive();
 
     this.input.setDraggable(pajaro);
