@@ -1,13 +1,14 @@
 <a-scene embedded arjs='trackingMethod: best; sourceType: webcam; debugUIEnabled: false;'>
     <a-assets>
+        <a-asset-item id="tree" src="/ar-kids/assets/minecraft/scene.gltf"></a-asset-item>
          <audio id="sound" src="/ar-kids/assets/minecraft/2 - Historias X Cambiar.mp3" preload="auto"></audio>
          <!-- <audio id="sound" src="/assets/minecraft/2 - Historias X Cambiar.mp3" preload="auto"></audio> -->
      </a-assets>
      <a-marker preset="hiro">
-      
-            <a-entity id="myBtn" gltf-model="/ar-kids/assets/minecraft/scene.gltf"  position='0 0 0' scale=".2 .2 .2" crossOrigin="anonymous" animation-mixer soundhandler>
+            <a-entity gltf-model="#tree"  position='0 0 0' scale=".2 .2 .2" crossOrigin="anonymous" animation-mixer soundhandler></a-entity>
+            <!-- <a-entity id="myBtn" gltf-model="/ar-kids/assets/minecraft/scene.gltf"  position='0 0 0' scale=".2 .2 .2" crossOrigin="anonymous" animation-mixer soundhandler> -->
             <!-- <a-entity id="myBtn" gltf-model="/assets/minecraft/scene.gltf" position='0 0 -2' scale=".2 .2 .2" crossOrigin="anonymous" animation-mixer soundhandler> -->
-            </a-entity>
+            <!-- </a-entity> -->
 
      </a-marker>
      <a-entity sound="src: #sound" autoplay="false"></a-entity>
