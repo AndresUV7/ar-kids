@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PruebaComponent implements OnInit {
 
+  isLoaded = false;
+
+  loaded($event){
+    this.isLoaded = true;
+  }
+  
   constructor() { }
 
   ngOnInit() {
   }
 
+
 }
+
+
