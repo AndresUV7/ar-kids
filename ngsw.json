@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1577805390105,
+  "timestamp": 1578768337031,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -10,14 +10,14 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main-es2015.3ab61d980ae39dc0289d.js",
-        "/main-es5.3ab61d980ae39dc0289d.js",
+        "/main-es2015.e6e829799501cc68be01.js",
+        "/main-es5.e6e829799501cc68be01.js",
         "/manifest.webmanifest",
         "/polyfills-es2015.2987770fde9daa1d8a2e.js",
         "/polyfills-es5.ef4b1e1fc703b3ff76e3.js",
         "/runtime-es2015.edb2fcf2778e7bf1d426.js",
         "/runtime-es5.edb2fcf2778e7bf1d426.js",
-        "/styles.3ff695c00d717f2d2a11.css"
+        "/styles.e8b2ef8f1d891acbc5a8.css"
       ],
       "patterns": []
     },
@@ -73,15 +73,15 @@
     "/assets/minecraft/textures/shoes_baseColor.png": "7d5619e27736bd493f408392843e93bf96d4ad09",
     "/assets/phaser.js": "05c2f41f6722ba7e8ae927da8d56f01ffd437834",
     "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "7e27839605c622b8777d2ed59aa6f23bff812116",
-    "/main-es2015.3ab61d980ae39dc0289d.js": "5fb58dfb26b9cf518db4a6f51666a3af2cd91671",
-    "/main-es5.3ab61d980ae39dc0289d.js": "b9516a1ac5b8c5a0766529ad30a1f22626c165d2",
+    "/index.html": "4f2ca8e72f669a7290cde1829de8b141678fc672",
+    "/main-es2015.e6e829799501cc68be01.js": "19de79d7dd8248248cd11dd85401ef645059fedb",
+    "/main-es5.e6e829799501cc68be01.js": "c64435c07c1b5583733e39e7275734bcf4cdba65",
     "/manifest.webmanifest": "665d913463e45bc36355ef34b83868476ff93895",
     "/polyfills-es2015.2987770fde9daa1d8a2e.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
     "/polyfills-es5.ef4b1e1fc703b3ff76e3.js": "6bff0c03e05bb347d213ad1b3674045eb892d189",
     "/runtime-es2015.edb2fcf2778e7bf1d426.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/runtime-es5.edb2fcf2778e7bf1d426.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "/styles.e8b2ef8f1d891acbc5a8.css": "26453d47ec36430b523ace93361172ee2488aa30"
   },
   "navigationUrls": [
     {
