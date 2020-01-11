@@ -22,7 +22,7 @@ import { MenuComponent } from './menu/menu.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ServiceWorkerModule.register('ngsw-config.json', { enabled: environment.production }),
+    ServiceWorkerModule.register('/ngsw-config.json', { enabled: environment.production }),
     BrowserAnimationsModule,
     MatSliderModule
   ],
