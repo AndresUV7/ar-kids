@@ -1,15 +1,13 @@
 {
   "configVersion": 1,
-  "timestamp": 1578777033815,
-  "index": "/index.html",
+  "timestamp": 1578777531777,
+  "index": "/ar-kids/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "/favicon.ico",
-        "/index.html",
         "/main-es2015.755f74b6090eeb5e3c36.js",
         "/main-es5.755f74b6090eeb5e3c36.js",
         "/polyfills-es2015.2987770fde9daa1d8a2e.js",
@@ -71,8 +69,6 @@
     "/assets/minecraft/textures/pants_baseColor.png": "fbba47956650ec6ee5573ab3979bfe55cd4e71a9",
     "/assets/minecraft/textures/shoes_baseColor.png": "7d5619e27736bd493f408392843e93bf96d4ad09",
     "/assets/phaser.js": "05c2f41f6722ba7e8ae927da8d56f01ffd437834",
-    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "c0acbd5a8a3a83f9b9c6499fbe3ca8317d170602",
     "/main-es2015.755f74b6090eeb5e3c36.js": "7752b02139fa62b767b728226573d682d011408d",
     "/main-es5.755f74b6090eeb5e3c36.js": "22b8996238b03989cc072671b1f8839398de8023",
     "/polyfills-es2015.2987770fde9daa1d8a2e.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
