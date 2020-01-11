@@ -1,13 +1,23 @@
 {
   "configVersion": 1,
-  "timestamp": 1578778175313,
-  "index": "/ar-kids/index.html",
+  "timestamp": 1578778572375,
+  "index": "/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
-      "urls": [],
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main-es2015.755f74b6090eeb5e3c36.js",
+        "/main-es5.755f74b6090eeb5e3c36.js",
+        "/polyfills-es2015.2987770fde9daa1d8a2e.js",
+        "/polyfills-es5.ef4b1e1fc703b3ff76e3.js",
+        "/runtime-es2015.edb2fcf2778e7bf1d426.js",
+        "/runtime-es5.edb2fcf2778e7bf1d426.js",
+        "/styles.e8b2ef8f1d891acbc5a8.css"
+      ],
       "patterns": []
     },
     {
@@ -60,7 +70,16 @@
     "/assets/minecraft/textures/metal_baseColor.png": "0db073bc43cb4eddd9713078b3f922d1bf148fe3",
     "/assets/minecraft/textures/pants_baseColor.png": "fbba47956650ec6ee5573ab3979bfe55cd4e71a9",
     "/assets/minecraft/textures/shoes_baseColor.png": "7d5619e27736bd493f408392843e93bf96d4ad09",
-    "/assets/phaser.js": "05c2f41f6722ba7e8ae927da8d56f01ffd437834"
+    "/assets/phaser.js": "05c2f41f6722ba7e8ae927da8d56f01ffd437834",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "97dffebd0bbf7bc5a75677e5ff626eb73f735bd5",
+    "/main-es2015.755f74b6090eeb5e3c36.js": "7752b02139fa62b767b728226573d682d011408d",
+    "/main-es5.755f74b6090eeb5e3c36.js": "22b8996238b03989cc072671b1f8839398de8023",
+    "/polyfills-es2015.2987770fde9daa1d8a2e.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
+    "/polyfills-es5.ef4b1e1fc703b3ff76e3.js": "6bff0c03e05bb347d213ad1b3674045eb892d189",
+    "/runtime-es2015.edb2fcf2778e7bf1d426.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/runtime-es5.edb2fcf2778e7bf1d426.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/styles.e8b2ef8f1d891acbc5a8.css": "26453d47ec36430b523ace93361172ee2488aa30"
   },
   "navigationUrls": [
     {
