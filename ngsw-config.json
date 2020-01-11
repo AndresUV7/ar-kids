@@ -1,17 +1,17 @@
 {
   "$schema": "./node_modules/@angular/service-worker/config/schema.json",
-  "index": "/index.html",
+  "index": "/ar-kids/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "resources": {
         "files": [
-          "/favicon.ico",
-          "/index.html",
-          "/manifest.json",
-          "/*.css",
-          "/*.js"
+          "/ar-kids/favicon.ico",
+          "/ar-kids/index.html",
+          "/ar-kids/manifest.json",
+          "/ar-kids/*.css",
+          "/ar-kids/*.js"
         ]
       }
     }, {
