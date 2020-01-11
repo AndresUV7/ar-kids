@@ -4,7 +4,8 @@ import Phaser from 'phaser';
 
 class NewScene extends Phaser.Scene {
 
-  
+  pajaro1 : any
+  pajaro2 : any
   
   constructor() {
       
@@ -15,35 +16,99 @@ class NewScene extends Phaser.Scene {
 
   preload() {
     // console.log('enter preload');
-    this.load.image("pajaro","/ar-kids/assets/img/bird.png");
+    this.load.path = '/assets/img/'
+    this.load.image("pajaro1","bird.png");
+    this.load.image("pajaro2","bird_dos.png");
     
   }
 
   create() {
     // console.log('enter create');
     
-    let pajaro=this.add.image(50,100,"pajaro").setInteractive();
-
-    this.input.setDraggable(pajaro);
-
-    this.input.on('dragstart', function (pointer, gameObject) {
-
-      this.children.bringToTop(gameObject);
-
-    }, this);
-
-    this.input.on('drag', function (pointer, gameObject, dragX, dragY) {
-  
-        gameObject.x = dragX;
-        gameObject.y = dragY;
-  
+    this.pajaro1=this.add.image(50,100,"pajaro1").setInteractive();
+    this.pajaro2=this.add.image(200,110,"pajaro2").setInteractive();
+    const eventos = Phaser.Input.Events;
+    
+    this.input.on(eventos.POINTER_DOWN, (evento) =>{
+        console.log("Se ha clicado en el canvas");
+        // console.log(evento);
     });
+    
+    this.input.on(eventos.POINTER_UP, (evento) =>{
+        console.log("Se ha levantado el puntero en el canvas");
+        // console.log(evento);
+    });
+    
+    this.input.on(eventos.POINTER_MOVE, (evento) =>{
+        // console.log("Se ha movido el puntero en el canvas");
+        // console.log(evento);
+        if (evento.isDown){
+          this.pajaro1.x = evento.worldX;
+          this.pajaro1.y = evento.worldY;
+        }
+        
+    });
+
+    this.input.on(eventos.GAME_OVER,()=>{
+        console.log("Has entrado en el lienzo")
+    });
+
+    
+    this.input.on(eventos.GAME_OUT,()=>{
+      console.log("Has salido del lienzo")
+    });
+
+    this.input.on(eventos.POINTER_DOWN_OUTSIDE,()=>{
+      console.log("Has clicado fuera del lienzo")
+    });
+
+
+    this.input.on(eventos.POINTER_UP_OUTSIDE,()=>{
+      console.log("Has levantado fuera del lienzo")
+    });
+
+    // this.input.on(eventos.GAMEOBJECT_DOWN,(pointer, gameObject)=>{
+    //     gameObject.setTint(0x00ff00);
+    // });
+    
+    // this.input.on(eventos.GAMEOBJECT_UP,(pointer, gameObject)=>{
+    //     gameObject.clearTint();
+    // });
+
+    this.pajaro2.on(eventos.POINTER_DOWN, function() {
+        this.setTint(0x0000ff);
+    });
+
+    
+    this.pajaro2.on(eventos.POINTER_UP, function() {
+      this.clearTint();
+    });
+
+    // this.input.setDraggable(this.pajaro1);
+    // this.input.setDraggable(this.pajaro2);
+
+    // this.input.on('dragstart', function (pointer, gameObject) {
+
+    //   this.children.bringToTop(gameObject);
+
+    // }, this);
+
+    // this.input.on('drag', function (pointer, gameObject, dragX, dragY) {
+  
+    //     gameObject.x = dragX;
+    //     gameObject.y = dragY;
+  
+    // });
     }
 
   update(time, delta){
     // console.log(delta);
+    // this.pajaro1.x++;
 
-    
+    // if (this.pajaro1.x == 100){
+    //   this.pajaro1.x=50;
+      
+    // }
   }
 
 }
@@ -63,6 +128,7 @@ export class JuegoComponent implements OnInit {
 
     this.config = {
       type: Phaser.AUTO,
+      backgroundColor: '#34495e',
       scene: [ NewScene ],
       physics: {
         default: 'arcade',
